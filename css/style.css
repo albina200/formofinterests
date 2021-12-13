@@ -1,0 +1,100 @@
+body{
+    background-image: url(../img/2.png);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 40px 0;
+}
+form{
+    width: 500px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 30px rgb(0, 66, 0);
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    max-width: 90%;
+}
+h1{
+    text-align: center;
+    font-size: 32px;
+}
+input, select, textarea{
+    padding: 10px;
+    outline: none;
+    border: 2px solid rgb(0, 66, 0);
+    width: 60%;
+    /* max-width: 85%; */
+    margin: 5px auto;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+input:focus, select:focus, textarea:focus{
+    box-shadow: 0 0 15px rgb(0, 66, 0);
+}
+fieldset{
+    border: 2px solid rgb(0, 66, 0);
+    padding: 10px 0px;
+}
+legend{
+    text-align: center;
+}
+label{
+    display: block;
+    text-align: left;
+    margin: 0 0 0 20%;
+}
+*{
+    box-sizing: border-box;
+}
+.radio{
+    width: 13px;
+    height: 13px;
+    margin-left: 5px;
+}
+.radiotext{
+    display: inline;
+    margin: 0 5px 0 5px;
+}
+.text-center{
+    text-align: center;
+    margin: 10px 0 0 0;
+}
+textarea{
+    display: block;
+    width: 90%;
+    resize: vertical;
+}
+.checkbox{
+    width: 15px;
+    text-align: left;
+}
+.checkboxtext{
+    display: inline;
+    margin: 0 0 0 10px;
+    text-align: left;
+}
+button{
+    padding: 10px 15px;
+    width: 45%;
+    border: 2px solid rgb(0, 66, 0);
+    border-radius: 5px;
+    background-color: rgb(0, 66, 0);
+    color: white;
+    font-size: 16px;
+    margin: 20px 0 0 0;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: rgb(0, 66, 0);
+}
+.reset{
+    background-color: white;
+    color: rgb(0, 66, 0);
+}
+.reset:hover{
+    background-color: rgb(0, 66, 0);
+    color: white;
+}

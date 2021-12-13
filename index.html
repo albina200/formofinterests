@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    <form action="#">
+        <h1>Твои интересы</h1>
+        <fieldset>
+            <legend>Контакная информация</legend>
+            <input type="text" placeholder="Введите имя">
+            <input type="email" placeholder="Введите почту">
+            <input type="tel" placeholder="Введите номер телефона">
+        </fieldset>
+        <fieldset>
+            <legend>Личная информация</legend>
+            <label for="age">Ваш возраст</label>
+            <input type="number" id="age">
+            <label for="date">Ваша дата рождения</label>
+            <input type="date" id="date">
+            <label for="interests">Что вас интересует?</label>
+            <select name="" id="interests">
+                <option value="">...</option>
+                <option value="">Спорт</option>
+                <option value="">Програмирование</option>
+                <option value="">Кулинария</option>
+                <option value="">Дизаин</option>
+                <option value="">Мультфильмы</option>
+            </select>
+            <label for="" class="text-center">Любишь ли ты пиццу?</label>
+            <input type="radio" class="radio" id="yes" name="pizza">
+            <label for="yes" class="radiotext">Да</label>
+            <input type="radio" class="radio" id="no" name="pizza">
+            <label for="no" class="radiotext">Нет</label>
+            <label for="coment" class="text-center">Оставьте свой коментарий</label>
+            <textarea name="" id="coment" rows="5"></textarea>
+        </fieldset>
+        <input class="checkbox" type="checkbox" id="checkbox1">
+        <label class="checkboxtext" for="checkbox1">Даю согласие на обработку моих личных данных</label>
+        <br>
+        <input class="checkbox" type="checkbox" id="checkbox2">
+        <label class="checkboxtext" for="checkbox2">Отправлять все новости на почту</label>
+        <button type="submit">Отправить</button>
+        <button class="reset" type="reset">Очистить</button>
+    </form>
+</body>
+</html>
